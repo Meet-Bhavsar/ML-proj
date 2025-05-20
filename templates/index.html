@@ -1,1 +1,37 @@
-<h1>Welcome to the home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Exam Performance Indicator - Home</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to the Student Exam Performance Indicator</h1>
+            <p>Get personalized insights into your exam performance!</p>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="container">
+            <h2>What We Offer</h2>
+            <p>We use various data points such as gender, ethnicity, parental education level, lunch type, and test preparation course completion to predict your exam performance. Fill out the form below to get your personalized prediction.</p>
+            <div class="cta">
+                <a href="/predictdata" class="btn">Start Prediction</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Student Exam Performance Indicator</p>
+        </div>
+    </footer>
+</body>
+
+</html>
