@@ -17,7 +17,7 @@ setup(
     version='1.0.0',
     author='Meet',
     author_email='meetacademics123@gmail.com',
-    url='https://github.com/your_username/my_package',
+    url='https://github.com/Meet-Bhavsar/ML-proj',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
 )
